@@ -1,0 +1,38 @@
+{
+  "plugin/index.js": {
+    "bytes": 2142,
+    "sha256": "447eb773b3539ddaaf28286bf19473901fc8f559e5f8554bb9e6c8d1a246bd5f"
+  },
+  "plugin/client.js": {
+    "bytes": 11306,
+    "sha256": "85365a7898d1a83089360ed674ced2d8746fc9aacfda2e5fff54ffbd810fe1df"
+  },
+  "dist/scene.html": {
+    "bytes": 616,
+    "sha256": "31e11f32d06086b48e76600b2813c9a125c9027740b9d6fa91eba16112493ac1"
+  },
+  "dist/scene.css": {
+    "bytes": 978,
+    "sha256": "e1ac45cc36b0422f706dedddc8d9757c2a0f20f13ceb0b3ee703da1a35d194f9"
+  },
+  "dist/renderer.js": {
+    "bytes": 11838,
+    "sha256": "cf87127b17e7dfa5419b39bbd2d029e9cb71824cfce6a660b5ea1e2e25ec84f0"
+  },
+  "dist/settings.js": {
+    "bytes": 1918,
+    "sha256": "b6fcd772b973a5174e573306f96e05d9656887e98875e3904249c64b466b8ec0"
+  },
+  "dist/ui.css": {
+    "bytes": 3778,
+    "sha256": "856fafea987d14adab273c5a70fe8b499e1c60df884a23c323458883b2f2a27e"
+  },
+  "dist/coast.webp": {
+    "bytes": 393286,
+    "sha256": "d557fbc3aae7a96ba15d1da8d3984659a6368a0300c68104de373387187d7918"
+  },
+  "dist/cloud.png": {
+    "bytes": 1202276,
+    "sha256": "3933d67128482f9c5dd31ec91a9f89650f81e8f0f7b5c4ac8137c60ae243bdf2"
+  }
+}

@@ -1,0 +1,31 @@
+#open-meadow-settings{--om-ink:#273f39;--om-sub:#63786b;--om-line:#cdd8cd;--om-paper:#f5f8f1;--om-accent:#527a50;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;color:var(--om-ink);font-size:13px;box-sizing:border-box;padding:22px 0;border-top:1px solid var(--dsw-alias-line-1,#8a9c8c33);width:100%;min-width:0}
+body[data-ds-dark-theme] #open-meadow-settings{--om-ink:#e7eee2;--om-sub:#a9baac;--om-line:#496059;--om-paper:#243a31;--om-accent:#bdd7a9}
+#open-meadow-settings h3{font:500 16px -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;letter-spacing:1px;margin:0 0 6px}
+#open-meadow-settings header p{margin:0 0 20px;color:var(--om-sub);font-size:12px}
+#open-meadow-settings .om-switches{display:flex;gap:28px;flex-wrap:wrap;margin-bottom:22px}
+#open-meadow-settings .om-switch{display:flex;gap:20px;align-items:center}
+#open-meadow-settings label{cursor:pointer}
+#open-meadow-settings input[type="checkbox"]{appearance:none;width:32px;height:19px;border-radius:20px;background:var(--om-line);cursor:pointer;position:relative;margin:0;transition:background .2s}
+#open-meadow-settings input[type="checkbox"]:before{content:"";position:absolute;left:3px;top:3px;width:13px;height:13px;background:var(--om-paper);border-radius:50%;transition:transform .2s}
+#open-meadow-settings input[type="checkbox"]:checked{background:var(--om-accent)}
+#open-meadow-settings input[type="checkbox"]:checked:before{transform:translateX(13px)}
+#open-meadow-settings .om-visibility>div{display:flex;justify-content:space-between;align-items:center;margin-bottom:9px}
+#open-meadow-settings output{font-variant-numeric:tabular-nums;color:var(--om-accent)}
+#open-meadow-settings input[type="range"]{width:100%;accent-color:var(--om-accent);height:18px;margin:0;cursor:pointer}
+#open-meadow-settings .om-visibility p{font-size:11px;line-height:1.65;color:var(--om-sub);margin:5px 0 18px}
+#open-meadow-settings .om-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+#open-meadow-settings fieldset{padding:0;margin:0;border:0;min-width:0}
+#open-meadow-settings legend{padding:0;margin-bottom:8px;color:var(--om-sub);font-size:12px}
+#open-meadow-settings .om-segments{display:flex;background:#83937c10;border:1px solid var(--om-line);padding:3px;border-radius:9px;gap:2px}
+#open-meadow-settings .om-segments label{flex:1;position:relative;text-align:center;min-width:0}
+#open-meadow-settings .om-segments input{position:absolute;opacity:0;width:100%;height:100%;inset:0;margin:0;cursor:pointer}
+#open-meadow-settings .om-segments span{display:block;padding:7px 2px;border-radius:6px;color:var(--om-sub);font-size:12px;white-space:nowrap}
+#open-meadow-settings .om-segments input:checked+span{background:var(--om-paper);color:var(--om-ink);box-shadow:0 1px 4px #12261b14}
+#open-meadow-settings footer{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-top:18px}
+#open-meadow-settings [data-notice]{font-size:11px;color:var(--om-sub)}
+#open-meadow-settings [data-reset]{border:1px solid var(--om-line);background:transparent;color:var(--om-ink);font:inherit;font-size:12px;padding:7px 12px;border-radius:7px;cursor:pointer;white-space:nowrap}
+#open-meadow-settings .om-conflict{font-size:12px;line-height:1.6;padding:9px;border:1px solid var(--om-line);border-radius:6px}
+#open-meadow-settings :is(button,input):focus-visible{outline:2px solid var(--om-accent);outline-offset:3px}
+#open-meadow-settings .om-segments input:focus-visible+span{outline:2px solid var(--om-accent);outline-offset:1px}
+@media(max-width:760px){#open-meadow-settings .om-options{grid-template-columns:1fr}#open-meadow-settings .om-switches{gap:16px}}
+@media(prefers-reduced-motion:reduce){#open-meadow-settings input{transition:none!important}}

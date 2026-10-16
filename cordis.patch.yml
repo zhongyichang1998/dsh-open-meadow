@@ -1,0 +1,4 @@
+# Install through DSH's profile plugin manager. No application patching.
+- insert:
+    - id: open-meadow
+      name: dsh-open-meadow

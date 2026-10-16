@@ -1,0 +1,7 @@
+node_modules/
+.qa/
+artifacts/screenshots-*/
+artifacts/*.log
+artifacts/*.tgz
+artifacts/*.sha256
+.DS_Store

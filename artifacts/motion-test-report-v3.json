@@ -1,0 +1,173 @@
+{
+  "version": "1.0.0-preview.3",
+  "environment": "Chromium, 1280×720, original painted water/grass regions sampled independently",
+  "regions": {
+    "water": [
+      0.035,
+      0.555,
+      0.27,
+      0.685
+    ],
+    "flowers": [
+      0.72,
+      0.79,
+      0.88,
+      0.96
+    ],
+    "grass": [
+      0.92,
+      0.68,
+      0.99,
+      0.94
+    ],
+    "boat": [
+      0.182,
+      0.764,
+      0.314,
+      0.83
+    ],
+    "lighthouse": [
+      0.818,
+      0.32,
+      0.863,
+      0.427
+    ],
+    "rock": [
+      0.495,
+      0.867,
+      0.647,
+      0.974
+    ]
+  },
+  "energies": {
+    "calm": {
+      "water": {
+        "meanRms": 1.02991331269248,
+        "meanChangedPixels": 321.8
+      },
+      "flowers": {
+        "meanRms": 1.3998583108030225,
+        "meanChangedPixels": 702.2
+      },
+      "grass": {
+        "meanRms": 2.0249782562380205,
+        "meanChangedPixels": 1124.5
+      },
+      "boat": {
+        "meanRms": 0,
+        "meanChangedPixels": 0
+      },
+      "lighthouse": {
+        "meanRms": 0,
+        "meanChangedPixels": 0
+      },
+      "rock": {
+        "meanRms": 0,
+        "meanChangedPixels": 0
+      }
+    },
+    "breeze": {
+      "water": {
+        "meanRms": 7.209325401311871,
+        "meanChangedPixels": 6881
+      },
+      "flowers": {
+        "meanRms": 23.84221554644754,
+        "meanChangedPixels": 16612.4
+      },
+      "grass": {
+        "meanRms": 25.18094446310127,
+        "meanChangedPixels": 11140.2
+      },
+      "boat": {
+        "meanRms": 0,
+        "meanChangedPixels": 0
+      },
+      "lighthouse": {
+        "meanRms": 0,
+        "meanChangedPixels": 0
+      },
+      "rock": {
+        "meanRms": 0,
+        "meanChangedPixels": 0
+      }
+    },
+    "windy": {
+      "water": {
+        "meanRms": 15.676395559407649,
+        "meanChangedPixels": 14628.4
+      },
+      "flowers": {
+        "meanRms": 43.05888893067006,
+        "meanChangedPixels": 21439.3
+      },
+      "grass": {
+        "meanRms": 39.880997423777245,
+        "meanChangedPixels": 14278.6
+      },
+      "boat": {
+        "meanRms": 0,
+        "meanChangedPixels": 0
+      },
+      "lighthouse": {
+        "meanRms": 0,
+        "meanChangedPixels": 0
+      },
+      "rock": {
+        "meanRms": 0,
+        "meanChangedPixels": 0
+      }
+    }
+  },
+  "live": {
+    "water": {
+      "rms": 11.071233802178506,
+      "changed": 10829
+    },
+    "flowers": {
+      "rms": 47.013449907507294,
+      "changed": 23188
+    },
+    "grass": {
+      "rms": 43.967666913411215,
+      "changed": 15240
+    },
+    "boat": {
+      "rms": 0,
+      "changed": 0
+    },
+    "lighthouse": {
+      "rms": 0,
+      "changed": 0
+    },
+    "rock": {
+      "rms": 0,
+      "changed": 0
+    }
+  },
+  "performance": {
+    "frames": 157,
+    "running": true,
+    "timerActive": true,
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "canvasPixels": 921600,
+    "quality": "balanced",
+    "motionReduced": false,
+    "wind": "breeze",
+    "windParameters": {
+      "grass": 1,
+      "water": 1,
+      "speed": 1,
+      "foam": 0.44,
+      "cloud": 1
+    },
+    "plateReady": true,
+    "cloudReady": true,
+    "drawMeanMs": 4.678980891776693,
+    "drawMaxMs": 23.300000000745058,
+    "clock": 4.350599999999997
+  },
+  "framesOverFourSeconds": 88
+}
